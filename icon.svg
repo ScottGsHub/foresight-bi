@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background circle -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#312e81"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="orbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="50%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Crystal ball base/stand -->
+  <ellipse cx="64" cy="105" rx="28" ry="8" fill="#4b5563"/>
+  <ellipse cx="64" cy="103" rx="24" ry="6" fill="#6b7280"/>
+  
+  <!-- Crystal ball orb -->
+  <circle cx="64" cy="60" r="38" fill="url(#orbGrad)" opacity="0.9"/>
+  
+  <!-- Inner glow -->
+  <circle cx="64" cy="60" r="32" fill="none" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Shine highlight -->
+  <ellipse cx="50" cy="48" rx="12" ry="8" fill="url(#shineGrad)"/>
+  
+  <!-- Data points inside orb (like the dot strip) -->
+  <circle cx="45" cy="55" r="4" fill="#facc15" opacity="0.9"/>
+  <circle cx="58" cy="62" r="4" fill="#22c55e" opacity="0.9"/>
+  <circle cx="72" cy="58" r="4" fill="#3b82f6" opacity="0.9"/>
+  <circle cx="80" cy="65" r="3" fill="#a855f7" opacity="0.7" stroke="#a855f7" stroke-width="1"/>
+  
+  <!-- Sparkles -->
+  <circle cx="35" cy="35" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="90" cy="42" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="42" cy="78" r="1.5" fill="#fff" opacity="0.5"/>
+</svg>
