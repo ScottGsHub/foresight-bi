@@ -137,6 +137,40 @@ Prediction markets aggregate crowd wisdom with skin in the game. AI provides ind
 
 Neither is always right. The divergence itself is the insight.
 
+## Troubleshooting
+
+### "localhost refused to connect"
+
+The server runs as a background process and may die when your terminal closes or the system cleans up idle processes.
+
+**Quick fix:** Restart the server
+```bash
+cd /path/to/foresight-bi
+npx http-server -p 8080 -c-1 &
+```
+
+**Permanent fixes:**
+
+1. **Use tmux/screen** (keeps server alive after terminal closes)
+   ```bash
+   tmux new -s foresight
+   cd /path/to/foresight-bi && npx http-server -p 8080
+   # Press Ctrl+B, then D to detach
+   # Reattach later with: tmux attach -t foresight
+   ```
+
+2. **Use systemd** (auto-starts on boot)
+   ```bash
+   # Create /etc/systemd/system/foresight.service
+   # Then: sudo systemctl enable --now foresight
+   ```
+
+3. **Just open the file directly** (no server needed for basic viewing)
+   ```bash
+   # Open index.html in your browser directly
+   # Note: Some features may not work due to CORS
+   ```
+
 ## Limitations
 
 - Market coverage varies — not every question has matches on all platforms
