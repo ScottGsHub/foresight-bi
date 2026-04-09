@@ -36,7 +36,7 @@
       "question": "Will the Fed cut interest rates in 2026?",
       "category": "macro",
       "resolution_date": "2026-12-31",
-      "kalshi_ticker": null,
+      "kalshi_ticker": "KXRATECUT-26DEC31",
       "manifold_slug": null,
       "polymarket_slug": "how-many-fed-rate-cuts-in-2026",
       "polymarket_outcome": "1+"
@@ -46,7 +46,7 @@
       "question": "Will the US enter a recession in 2026?",
       "category": "macro",
       "resolution_date": "2026-12-31",
-      "kalshi_ticker": null,
+      "kalshi_ticker": "KXRECSSNBER-26",
       "manifold_slug": "will-the-us-enter-a-recession-2-con",
       "polymarket_slug": "us-recession-by-end-of-2026"
     },
@@ -71,12 +71,13 @@
     },
     {
       "id": "openai-ipo-2026",
-      "question": "Will OpenAI file for an IPO in 2026?",
+      "question": "Will OpenAI IPO by end of 2026?",
       "category": "tech",
       "resolution_date": "2026-12-31",
       "kalshi_ticker": null,
       "manifold_slug": "acx-2026-will-openai-file-for-an-ip",
-      "polymarket_slug": null
+      "polymarket_slug": "openai-ipo-by",
+      "polymarket_outcome": "December 31 2026"
     }
   ]
 }

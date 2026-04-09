@@ -143,10 +143,16 @@ async function getPolymarketBySlug(slug, targetOutcome = null) {
   if (event.markets && event.markets.length > 0) {
     // If targetOutcome specified, find matching market
     if (targetOutcome) {
-      const market = event.markets.find(m => 
-        m.question.toLowerCase().includes(targetOutcome.toLowerCase()) ||
-        m.groupItemTitle?.toLowerCase().includes(targetOutcome.toLowerCase())
-      );
+      // Try different matching strategies
+      const targetLower = targetOutcome.toLowerCase();
+      const market = event.markets.find(m => {
+        const question = (m.question || '').toLowerCase();
+        const groupTitle = (m.groupItemTitle || '').toLowerCase();
+        return question.includes(targetLower) || 
+               groupTitle.includes(targetLower) ||
+               question.includes(targetOutcome) ||
+               groupTitle.includes(targetOutcome);
+      });
       if (market) {
         return {
           ...market,

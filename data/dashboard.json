@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T19:15:33.462Z",
+  "updated_at": "2026-04-09T22:18:37.797Z",
   "categories": {
     "macro": {
       "name": "Macro Economy",
@@ -39,18 +39,18 @@
       "manifold": null,
       "ai": {
         "probability": 100,
-        "reasoning": "Given that today is April 9, 2026, and the resolution date is April 10, 2026, the March 2026 CPI data has almost certainly already been released by the Bureau of Labor Statistics (which typically releases CPI data around the middle of the following month). The Kalshi market showing 100% indicates that the March 2026 CPI inflation figure has already been confirmed to be above 3%. At this point, this is no longer a forecast but rather a known outcome that the market has already incorporated.",
+        "reasoning": "Given that today is April 9, 2026 and the resolution date is April 10, 2026, the March 2026 CPI data has almost certainly already been released by the Bureau of Labor Statistics, which typically publishes monthly CPI figures around the middle of the following month. The Kalshi market price of 100% strongly indicates that the official March 2026 CPI inflation figure has been announced and confirmed to be above 3%. I agree with the market consensus because prediction markets are typically very efficient when the outcome is already known or virtually certain, and there would be no reason for the price to be at 100% unless the data had already been released showing inflation above 3%.",
         "claude": {
           "probability": 100,
-          "reasoning": "Given that today is April 9, 2026, and the resolution date is April 10, 2026, the March 2026 CPI data has almost certainly already been released by the Bureau of Labor Statistics (which typically releases CPI data around the middle of the following month). The Kalshi market showing 100% indicates that the March 2026 CPI inflation figure has already been confirmed to be above 3%. At this point, this is no longer a forecast but rather a known outcome that the market has already incorporated."
+          "reasoning": "Given that today is April 9, 2026 and the resolution date is April 10, 2026, the March 2026 CPI data has almost certainly already been released by the Bureau of Labor Statistics, which typically publishes monthly CPI figures around the middle of the following month. The Kalshi market price of 100% strongly indicates that the official March 2026 CPI inflation figure has been announced and confirmed to be above 3%. I agree with the market consensus because prediction markets are typically very efficient when the outcome is already known or virtually certain, and there would be no reason for the price to be at 100% unless the data had already been released showing inflation above 3%."
         },
         "gpt": {
           "probability": 80,
-          "reasoning": "Given the rising trend of inflation in the US in recent months, combined with factors such as supply chain disruptions, increased demand post-pandemic, and rising commodity prices, it is highly likely that CPI inflation will exceed 3% for March 2026. The market consensus of 100% on Kalshi seems overly confident, but I still estimate an 80% probability based on current economic conditions."
+          "reasoning": "Given the current global economic conditions and rising commodity prices, there is a high likelihood that US CPI inflation will be above 3% for March 2026. Factors such as supply chain disruptions, increased consumer demand, and potential monetary policy adjustments all point towards a higher inflation rate."
         },
         "grok": {
-          "probability": 95,
-          "reasoning": "While the Kalshi market indicates 100% certainty that US CPI inflation for March 2026 will be above 3%, I assign a slightly lower probability to account for the inherent uncertainty in economic data, such as potential revisions or last-minute fluctuations in factors like energy prices or supply chain disruptions. Based on historical trends, where CPI has often hovered around or above 3% in recent years due to persistent pressures, and considering projected economic conditions as of early 2026 (including Federal Reserve policies aimed at cooling inflation), it's highly likely but not guaranteed. I disagree with the market consensus because no economic indicator is ever 100% certain, as unforeseen events could still influence the final CPI reading before the official release on or around April 10, 2026."
+          "probability": 100,
+          "reasoning": "As of April 9, 2026, the Kalshi prediction market is pricing this event at 100%, suggesting that preliminary or confirmed CPI data for March 2026 indicates inflation above 3%, with virtually no uncertainty left just one day before the official resolution. Base rates show U.S. CPI has been moderating but remains influenced by factors like economic growth and Federal Reserve policies, which by mid-2026 could still support above-3% inflation based on recent trends. I agree with the market consensus, as it likely incorporates the latest available indicators, making this outcome effectively certain."
         }
       },
       "divergence": {
@@ -64,34 +64,40 @@
       "question": "Will the Fed cut interest rates in 2026?",
       "category": "macro",
       "resolution_date": "2026-12-31",
-      "kalshi": null,
+      "kalshi": {
+        "probability": 67,
+        "ticker": "KXRATECUT-26DEC31",
+        "title": "Will the Federal Reserve cut rates before 2027?",
+        "url": "https://kalshi.com/markets/KXRATECUT-26DEC31",
+        "volume": 71436
+      },
       "polymarket": {
-        "probability": 36,
+        "probability": 34,
         "question": "Will no Fed rate cuts happen in 2026?",
         "url": "https://polymarket.com/event/how-many-fed-rate-cuts-in-2026",
-        "volume": 2974212,
-        "liquidity": 69743
+        "volume": 2985105,
+        "liquidity": 68589
       },
       "manifold": null,
       "ai": {
-        "probability": 42,
-        "reasoning": "Given that we're already in April 2026, there are roughly 8 months remaining for potential rate cuts. The current Polymarket price of 36% suggests markets see a moderate but not high likelihood of cuts this year. Key factors include the current economic backdrop (inflation trends, employment levels, GDP growth), the Fed's previous guidance, and the typical lag between economic conditions and Fed policy responses. Without knowing the specific economic conditions in April 2026, I estimate a slightly higher probability than the market at 42%, as central banks historically tend to be more responsive to economic weakness than markets initially anticipate, and 8 months provides sufficient time for economic conditions to shift and warrant policy changes.",
+        "probability": 52,
+        "reasoning": "The wide spread between Kalshi (67%) and Polymarket (34%) suggests significant uncertainty about Fed policy direction in 2026. Given that we're already in April 2026, there are only 8 months remaining for rate cuts to occur, which provides a reasonable timeframe for at least one cut if economic conditions warrant it. Economic cycles typically require monetary policy adjustments over multi-year periods, and the Fed has historically cut rates in response to economic slowdowns, inflation reaching target levels, or financial stability concerns. My estimate splits the difference between the two markets while acknowledging that rate cuts are more likely than not given typical economic volatility over an 8-month period, but the divergent market signals suggest genuine uncertainty about the economic outlook for the remainder of 2026.",
         "claude": {
-          "probability": 42,
-          "reasoning": "Given that we're already in April 2026, there are roughly 8 months remaining for potential rate cuts. The current Polymarket price of 36% suggests markets see a moderate but not high likelihood of cuts this year. Key factors include the current economic backdrop (inflation trends, employment levels, GDP growth), the Fed's previous guidance, and the typical lag between economic conditions and Fed policy responses. Without knowing the specific economic conditions in April 2026, I estimate a slightly higher probability than the market at 42%, as central banks historically tend to be more responsive to economic weakness than markets initially anticipate, and 8 months provides sufficient time for economic conditions to shift and warrant policy changes."
+          "probability": 52,
+          "reasoning": "The wide spread between Kalshi (67%) and Polymarket (34%) suggests significant uncertainty about Fed policy direction in 2026. Given that we're already in April 2026, there are only 8 months remaining for rate cuts to occur, which provides a reasonable timeframe for at least one cut if economic conditions warrant it. Economic cycles typically require monetary policy adjustments over multi-year periods, and the Fed has historically cut rates in response to economic slowdowns, inflation reaching target levels, or financial stability concerns. My estimate splits the difference between the two markets while acknowledging that rate cuts are more likely than not given typical economic volatility over an 8-month period, but the divergent market signals suggest genuine uncertainty about the economic outlook for the remainder of 2026."
         },
         "gpt": {
-          "probability": 45,
-          "reasoning": "I believe there is a moderate chance (45%) that the Fed will cut interest rates in 2026. Economic indicators such as inflation, employment figures, and GDP growth will play a significant role in the Fed's decision. Given the uncertain global economic outlook and potential domestic challenges, a rate cut later in the year cannot be ruled out."
+          "probability": 50,
+          "reasoning": "Given the mixed predictions from different prediction markets, it is hard to confidently determine if the Fed will cut interest rates in 2026. Key factors such as economic conditions, inflation rates, and monetary policy decisions will play a significant role in this decision. Without more concrete data or signals from the Fed, I estimate a 50% probability of an interest rate cut in 2026."
         },
         "grok": {
-          "probability": 40,
-          "reasoning": "Based on historical base rates, the Fed has cut rates in about 60% of years following periods of economic slowdown, and current indicators as of April 2026, such as moderating inflation and potential signs of labor market softening, suggest a reasonable chance of cuts to stimulate growth. However, factors like persistent global uncertainties and the Fed's cautious approach could prevent action, leading me to slightly disagree with the Polymarket consensus of 36% because I anticipate upcoming economic data might reveal more dovish signals than currently priced in."
+          "probability": 55,
+          "reasoning": "As of April 2026, economic indicators such as moderating inflation and potential signs of slowing GDP growth suggest a reasonable likelihood that the Fed might cut rates to support the economy, especially if unemployment rises or global risks emerge; however, strong consumer spending and persistent productivity gains could delay such action. I estimate 55% based on historical base rates where the Fed often cuts rates during economic softening, which aligns with current forecasts. This probability is higher than Polymarket's 34% due to recent data indicating labor market weaknesses but lower than Kalshi's 67% because of uncertainties around inflation reacceleration."
         }
       },
       "divergence": {
-        "ai_vs_composite": 6,
-        "composite": 36,
+        "ai_vs_composite": -2,
+        "composite": 54,
         "significant": false
       }
     },
@@ -100,13 +106,19 @@
       "question": "Will the US enter a recession in 2026?",
       "category": "macro",
       "resolution_date": "2026-12-31",
-      "kalshi": null,
+      "kalshi": {
+        "probability": 25,
+        "ticker": "KXRECSSNBER-26",
+        "title": "Will there be a recession in 2026?",
+        "url": "https://kalshi.com/markets/KXRECSSNBER-26",
+        "volume": 1416968
+      },
       "polymarket": {
-        "probability": 32,
+        "probability": 25,
         "question": "US recession by end of 2026?",
         "url": "https://polymarket.com/event/us-recession-by-end-of-2026",
-        "volume": 1205538,
-        "liquidity": 61723
+        "volume": 1254688,
+        "liquidity": 63858
       },
       "manifold": {
         "probability": 46,
@@ -116,24 +128,24 @@
         "traders": 9
       },
       "ai": {
-        "probability": 38,
-        "reasoning": "Given that we're already in April 2026, there are only 8+ months remaining for a recession to begin and be officially declared (which typically requires two consecutive quarters of GDP decline). The prediction markets show divergent views (32-46%), suggesting genuine uncertainty about current economic conditions. While base rates suggest recessions occur roughly every 6-10 years in the US, the shorter timeframe remaining in 2026 and the need for official confirmation reduces the probability somewhat below the market average.",
+        "probability": 35,
+        "reasoning": "Given we're already in April 2026, there are only 8-9 months remaining for a recession to begin and be officially recognized by year-end. The market prices show significant divergence (25% vs 46%), suggesting substantial uncertainty about current economic conditions. While base rates for recession probability in any given year are typically 10-15%, the compressed timeframe and apparent market disagreement about real-time economic indicators suggest elevated near-term recession risk, though still below a coin flip probability.",
         "claude": {
-          "probability": 38,
-          "reasoning": "Given that we're already in April 2026, there are only 8+ months remaining for a recession to begin and be officially declared (which typically requires two consecutive quarters of GDP decline). The prediction markets show divergent views (32-46%), suggesting genuine uncertainty about current economic conditions. While base rates suggest recessions occur roughly every 6-10 years in the US, the shorter timeframe remaining in 2026 and the need for official confirmation reduces the probability somewhat below the market average."
+          "probability": 35,
+          "reasoning": "Given we're already in April 2026, there are only 8-9 months remaining for a recession to begin and be officially recognized by year-end. The market prices show significant divergence (25% vs 46%), suggesting substantial uncertainty about current economic conditions. While base rates for recession probability in any given year are typically 10-15%, the compressed timeframe and apparent market disagreement about real-time economic indicators suggest elevated near-term recession risk, though still below a coin flip probability."
         },
         "gpt": {
-          "probability": 40,
-          "reasoning": "While there are concerns about the potential for a recession in 2026 due to factors such as inflation, interest rates, and geopolitical tensions, the overall economic indicators and forecasts suggest a more moderate likelihood of a recession. The current market prices of 32% and 46% may be slightly pessimistic, leading me to estimate the probability at around 40%."
+          "probability": 35,
+          "reasoning": "I believe there is a moderate chance of the US entering a recession in 2026 due to factors such as rising inflation, potential changes in monetary policy by the Federal Reserve, and global economic conditions. While the current prediction markets vary in their estimates, I think there is a slightly higher than average probability of a recession occurring based on these factors. However, other economic indicators like strong job growth and consumer spending could also mitigate the likelihood of a recession."
         },
         "grok": {
-          "probability": 40,
-          "reasoning": "Based on historical base rates, the US has experienced a recession roughly every 5-10 years, with the last one in 2020, making 2026 a plausible but not inevitable timeframe; however, as of April 2026, current economic indicators like steady GDP growth, controlled inflation, and robust employment suggest a moderate risk, though potential factors like rising interest rates or geopolitical tensions could tip the scales. I slightly disagree with the market consensus (an average of about 39% from Polymarket and Manifold) because I weigh recent positive economic data more heavily than the markets might, leading me to a balanced estimate that accounts for both optimism and uncertainty."
+          "probability": 35,
+          "reasoning": "Historical base rates indicate that US recessions occur roughly every 5-10 years, with the last one in 2020, making 2026 a plausible but not highly likely timeframe given current economic resilience as of April 2026, including steady GDP growth and controlled inflation. However, potential risks like geopolitical tensions, high debt levels, or a slowdown in consumer spending could elevate the probability beyond the Kalshi and Polymarket consensus of 25%. I disagree slightly with the overall market by averaging to 35%, as Manifold's 46% might overemphasize short-term uncertainties while the lower estimates undervalue emerging global factors."
         }
       },
       "divergence": {
-        "ai_vs_composite": 1,
-        "composite": 37,
+        "ai_vs_composite": 6,
+        "composite": 29,
         "significant": false
       }
     },
@@ -147,24 +159,24 @@
         "probability": 37,
         "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
         "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
-        "volume": 1222814,
-        "liquidity": 99035
+        "volume": 1223825,
+        "liquidity": 89353
       },
       "manifold": null,
       "ai": {
         "probability": 42,
-        "reasoning": "Given that we're already well into 2026 (April) and Bitcoin hasn't reached $100,000 yet, there are only about 8.5 months remaining for this target to be achieved. While Bitcoin has historically shown significant volatility and can experience rapid price movements, reaching $100,000 would likely require either major institutional adoption, regulatory clarity driving institutional investment, or macroeconomic factors like currency debasement or inflation concerns driving flight to digital assets. The Polymarket price of 37% seems slightly conservative given Bitcoin's historical tendency for explosive moves during bull cycles, but the shortened timeframe is a significant constraint.",
+        "reasoning": "Given that we're already in April 2026 with 8+ months remaining, Bitcoin has sufficient time for significant price movements that could push it above $100k. The market price of 37% suggests some skepticism, but Bitcoin's historical volatility and potential catalysts like institutional adoption, regulatory clarity, or macroeconomic factors could drive substantial gains. I'm slightly more optimistic than the current market consensus because Bitcoin has shown capacity for rapid appreciation during favorable conditions, and the remaining timeframe allows for multiple cycles of price discovery.",
         "claude": {
           "probability": 42,
-          "reasoning": "Given that we're already well into 2026 (April) and Bitcoin hasn't reached $100,000 yet, there are only about 8.5 months remaining for this target to be achieved. While Bitcoin has historically shown significant volatility and can experience rapid price movements, reaching $100,000 would likely require either major institutional adoption, regulatory clarity driving institutional investment, or macroeconomic factors like currency debasement or inflation concerns driving flight to digital assets. The Polymarket price of 37% seems slightly conservative given Bitcoin's historical tendency for explosive moves during bull cycles, but the shortened timeframe is a significant constraint."
+          "reasoning": "Given that we're already in April 2026 with 8+ months remaining, Bitcoin has sufficient time for significant price movements that could push it above $100k. The market price of 37% suggests some skepticism, but Bitcoin's historical volatility and potential catalysts like institutional adoption, regulatory clarity, or macroeconomic factors could drive substantial gains. I'm slightly more optimistic than the current market consensus because Bitcoin has shown capacity for rapid appreciation during favorable conditions, and the remaining timeframe allows for multiple cycles of price discovery."
         },
         "gpt": {
           "probability": 50,
-          "reasoning": "While it is difficult to predict the future price of Bitcoin with certainty, the increasing adoption and mainstream recognition of Bitcoin, as well as the potential for further institutional investment, could push the price above $100,000 by 2026. However, there are also regulatory risks, market volatility, and global economic factors that could impact the price negatively. Overall, I believe there is a 50% chance that Bitcoin could exceed $100,000 by the end of 2026."
+          "reasoning": "I estimate a 50% probability that Bitcoin will exceed $100,000 in 2026. Given the volatility and unpredictability of the cryptocurrency market, combined with the potential for increased adoption and institutional investment in Bitcoin over the next few years, the price could reach this milestone. However, regulatory changes, technological developments, and market sentiment will also play key roles in determining whether Bitcoin surpasses $100,000 by the end of 2026."
         },
         "grok": {
           "probability": 40,
-          "reasoning": "Based on historical base rates, Bitcoin has shown significant growth potential during market cycles, such as its surge past $60,000 in 2021, but it also faces risks from economic volatility, regulatory changes, and potential recessions by late 2026. Current events as of April 2026, including post-halving supply dynamics and increasing institutional adoption, suggest a moderate chance of exceeding $100,000, though factors like high interest rates or geopolitical tensions could hinder this. I slightly disagree with the Polymarket consensus of 37% because I believe ongoing advancements in blockchain technology and potential ETF expansions may provide a bit more upside than the market is pricing in."
+          "reasoning": "Based on historical trends, Bitcoin has shown significant volatility and growth potential, with past cycles suggesting a rebound after the 2024 halving and increasing institutional adoption; however, current economic factors like potential recessions or regulatory hurdles could limit upside. I disagree slightly with the Polymarket consensus of 37% because recent developments, such as broader ETF integration and global currency instability, may accelerate price appreciation more than the market currently anticipates. Overall, while risks remain high, the balance of factors tilts toward a moderate increase in probability."
         }
       },
       "divergence": {
@@ -181,41 +193,43 @@
       "kalshi": null,
       "polymarket": null,
       "manifold": {
-        "probability": 64,
+        "probability": 65,
         "question": "Will S&P 500 increase in 2026?",
         "url": "https://manifold.markets/bessarabov/will-sp-500-increase-in-2026",
-        "volume": 40649,
+        "volume": 40670,
         "traders": 102
       },
       "ai": {
-        "probability": 68,
-        "reasoning": "Historically, the S&P 500 has increased in about 70-75% of calendar years since 1950, providing a strong base rate for positive returns. With roughly 8.5 months remaining in 2026, there's sufficient time for the market to recover from any current volatility or downturns. I'm slightly more optimistic than the Manifold prediction of 64% because the historical base rate is robust, and barring extraordinary circumstances like major financial crises or severe recessions, equity markets tend to trend upward over time due to economic growth, corporate earnings expansion, and monetary policy support.",
+        "probability": null,
+        "reasoning": "Given that we're already over 3 months into 2026, there's some clarity on economic trends and corporate earnings that weren't available at the start of the year. Historically, the S&P 500 has increased in about 70-75% of calendar years since 1950, and this base rate remains relevant. The current market price of 65% seems slightly conservative, as it doesn't fully account for the typical resilience of markets over full-year periods and the fact that we've already absorbed some volatility in the first quarter. I'm moderately more optimistic than the current market consensus due to the strong historical precedent and the reduced uncertainty that comes with being partway through the year.",
         "claude": {
-          "probability": 68,
-          "reasoning": "Historically, the S&P 500 has increased in about 70-75% of calendar years since 1950, providing a strong base rate for positive returns. With roughly 8.5 months remaining in 2026, there's sufficient time for the market to recover from any current volatility or downturns. I'm slightly more optimistic than the Manifold prediction of 64% because the historical base rate is robust, and barring extraordinary circumstances like major financial crises or severe recessions, equity markets tend to trend upward over time due to economic growth, corporate earnings expansion, and monetary policy support."
+          "probability": null,
+          "reasoning": "Given that we're already over 3 months into 2026, there's some clarity on economic trends and corporate earnings that weren't available at the start of the year. Historically, the S&P 500 has increased in about 70-75% of calendar years since 1950, and this base rate remains relevant. The current market price of 65% seems slightly conservative, as it doesn't fully account for the typical resilience of markets over full-year periods and the fact that we've already absorbed some volatility in the first quarter. I'm moderately more optimistic than the current market consensus due to the strong historical precedent and the reduced uncertainty that comes with being partway through the year."
         },
         "gpt": {
           "probability": 70,
-          "reasoning": "Considering the historical trend of the S&P 500, it tends to have an overall positive long-term trajectory. Additionally, economic indicators and forecasts suggest continued growth in the stock market. However, global events and unforeseen circumstances could always impact the market, so I am not assigning a higher probability."
+          "reasoning": "Based on current economic indicators, such as low unemployment rates, strong corporate earnings, and expected GDP growth, I believe the S&P 500 is likely to increase in 2026. Additionally, historical trends show that the S&P 500 has generally trended upwards over the long term, so I am optimistic about its performance this year."
         },
         "grok": {
-          "probability": 68,
-          "reasoning": "Historically, the S&P 500 has increased in about 70-75% of years due to long-term economic growth, providing a strong base rate for a positive outcome in 2026. As of April 2026, early-year performance and current economic indicators, such as potential AI-driven innovation and stable inflation, suggest a slightly higher likelihood than the market consensus. I disagree with the Manifold market's 64% estimate because it may not fully account for the momentum from the first quarter of 2026, which could indicate continued upward trends absent major geopolitical shocks."
+          "probability": 70,
+          "reasoning": "Historically, the S&P 500 has increased in approximately 70-75% of years over the past century, providing a strong base rate for potential growth in 2026. Given that we're already in April 2026, and assuming continued economic recovery from any 2025 challenges, factors like potential interest rate cuts and technological advancements could support further gains. I slightly disagree with the Manifold consensus of 65% because it may be factoring in undue pessimism from short-term volatility, whereas long-term trends suggest a higher probability of an overall increase by year-end."
         }
       },
-      "divergence": {
-        "ai_vs_composite": 4,
-        "composite": 64,
-        "significant": false
-      }
+      "divergence": null
     },
     {
       "id": "openai-ipo-2026",
-      "question": "Will OpenAI file for an IPO in 2026?",
+      "question": "Will OpenAI IPO by end of 2026?",
       "category": "tech",
       "resolution_date": "2026-12-31",
       "kalshi": null,
-      "polymarket": null,
+      "polymarket": {
+        "probability": 39,
+        "question": "Will OpenAI IPO by December 31 2026?",
+        "url": "https://polymarket.com/event/openai-ipo-by",
+        "volume": 419605,
+        "liquidity": 9422
+      },
       "manifold": {
         "probability": 37,
         "question": "[ACX 2026] Will OpenAI file for an IPO during 2026?",
@@ -225,23 +239,23 @@
       },
       "ai": {
         "probability": 42,
-        "reasoning": "Given that we're already in April 2026, OpenAI has only about 8 months remaining to file for an IPO this year. While the AI market remains highly valuable and OpenAI has likely achieved significant revenue growth, IPO timing depends on market conditions, regulatory readiness, and strategic positioning. The current Manifold price of 37% seems slightly low considering OpenAI's market position and the typical 12-18 month IPO preparation timeline - if they were planning a 2026 IPO, preparations would likely be well underway by now, but the compressed timeframe creates uncertainty.",
+        "reasoning": "Given that we're already in April 2026 with less than 9 months remaining, the timeline for an IPO is quite compressed. While OpenAI has likely been preparing for public markets given the AI boom and investor interest, the complex regulatory environment around AI and the company's unique governance structure (transitioning from non-profit origins) could create delays. The current market prices of 37-39% seem slightly undervalued considering OpenAI's dominant market position and the strong IPO appetite for leading AI companies, but the tight timeline remains the primary constraint.",
         "claude": {
           "probability": 42,
-          "reasoning": "Given that we're already in April 2026, OpenAI has only about 8 months remaining to file for an IPO this year. While the AI market remains highly valuable and OpenAI has likely achieved significant revenue growth, IPO timing depends on market conditions, regulatory readiness, and strategic positioning. The current Manifold price of 37% seems slightly low considering OpenAI's market position and the typical 12-18 month IPO preparation timeline - if they were planning a 2026 IPO, preparations would likely be well underway by now, but the compressed timeframe creates uncertainty."
+          "reasoning": "Given that we're already in April 2026 with less than 9 months remaining, the timeline for an IPO is quite compressed. While OpenAI has likely been preparing for public markets given the AI boom and investor interest, the complex regulatory environment around AI and the company's unique governance structure (transitioning from non-profit origins) could create delays. The current market prices of 37-39% seem slightly undervalued considering OpenAI's dominant market position and the strong IPO appetite for leading AI companies, but the tight timeline remains the primary constraint."
         },
         "gpt": {
-          "probability": 50,
-          "reasoning": "The probability of OpenAI filing for an IPO in 2026 is uncertain and could go either way. OpenAI has been a prominent player in the AI industry with significant funding and partnerships, which could push them towards going public. However, the decision to file for an IPO also depends on market conditions, regulatory environment, and internal strategic considerations, making it a coin toss at this point."
+          "probability": 45,
+          "reasoning": "I estimate a slightly higher probability of 45% for OpenAI to IPO by the end of 2026. OpenAI has been gaining significant attention and partnerships in the AI industry, which could drive them towards the decision to go public. Additionally, the increasing interest in AI and technology companies in the stock market may push OpenAI towards an IPO sooner rather than later."
         },
         "grok": {
           "probability": 40,
-          "reasoning": "Based on base rates, only about 10-20% of high-profile tech startups like OpenAI typically go public within a few years of their founding due to complexities like governance structures and funding alternatives, but OpenAI's rapid growth and potential need for capital amid AI competition could increase this likelihood. Current events, such as Microsoft's ongoing partnership and any regulatory pressures by mid-2026, suggest OpenAI might delay an IPO to maintain control, though market hype around AI could push them toward it. I disagree slightly with the Manifold consensus of 37% because, while risks remain high, OpenAI's financial trajectory and the evolving tech landscape make a 2026 IPO somewhat more plausible than the market indicates."
+          "reasoning": "Based on base rates, only about 20-30% of high-profile tech startups like OpenAI actually go public within a similar timeframe due to factors like regulatory scrutiny, internal governance structures, and market volatility, which could delay their IPO plans. Current events as of April 2026, including OpenAI's ongoing partnerships with Microsoft and potential AI regulatory pressures, suggest a moderate chance of an IPO by year-end if they need additional capital, but their capped-profit model might prioritize staying private. I slightly disagree with the market consensus (around 38%) because I factor in OpenAI's rapid growth and investor demands as making it a bit more likely than the averages indicate."
         }
       },
       "divergence": {
-        "ai_vs_composite": 5,
-        "composite": 37,
+        "ai_vs_composite": 4,
+        "composite": 38,
         "significant": false
       }
     }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T19:08:09.793Z",
+  "timestamp": "2026-04-09T22:16:13.896Z",
   "markets": {
     "cpi-march-2026-3pct": {
       "id": "cpi-march-2026-3pct",
@@ -20,12 +20,19 @@
       "question": "Will the Fed cut interest rates in 2026?",
       "category": "macro",
       "sources": {
+        "kalshi": {
+          "probability": 67,
+          "ticker": "KXRATECUT-26DEC31",
+          "title": "Will the Federal Reserve cut rates before 2027?",
+          "url": "https://kalshi.com/markets/KXRATECUT-26DEC31",
+          "volume": 71436
+        },
         "polymarket": {
-          "probability": 36,
+          "probability": 34,
           "question": "Will no Fed rate cuts happen in 2026?",
           "url": "https://polymarket.com/event/how-many-fed-rate-cuts-in-2026",
-          "volume": 2974212,
-          "liquidity": 69743
+          "volume": 2985105,
+          "liquidity": 68589
         }
       }
     },
@@ -34,6 +41,13 @@
       "question": "Will the US enter a recession in 2026?",
       "category": "macro",
       "sources": {
+        "kalshi": {
+          "probability": 25,
+          "ticker": "KXRECSSNBER-26",
+          "title": "Will there be a recession in 2026?",
+          "url": "https://kalshi.com/markets/KXRECSSNBER-26",
+          "volume": 1416968
+        },
         "manifold": {
           "probability": 46,
           "question": "Will the US enter a recession (2 consecutive quarters of GDP decline) by end of 2026?",
@@ -42,11 +56,11 @@
           "traders": 9
         },
         "polymarket": {
-          "probability": 32,
+          "probability": 25,
           "question": "US recession by end of 2026?",
           "url": "https://polymarket.com/event/us-recession-by-end-of-2026",
-          "volume": 1205538,
-          "liquidity": 61723
+          "volume": 1254688,
+          "liquidity": 63858
         }
       }
     },
@@ -59,8 +73,8 @@
           "probability": 37,
           "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
           "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
-          "volume": 1222814,
-          "liquidity": 99035
+          "volume": 1223825,
+          "liquidity": 89353
         }
       }
     },
@@ -70,17 +84,17 @@
       "category": "markets",
       "sources": {
         "manifold": {
-          "probability": 64,
+          "probability": 65,
           "question": "Will S&P 500 increase in 2026?",
           "url": "https://manifold.markets/bessarabov/will-sp-500-increase-in-2026",
-          "volume": 40649,
+          "volume": 40670,
           "traders": 102
         }
       }
     },
     "openai-ipo-2026": {
       "id": "openai-ipo-2026",
-      "question": "Will OpenAI file for an IPO in 2026?",
+      "question": "Will OpenAI IPO by end of 2026?",
       "category": "tech",
       "sources": {
         "manifold": {
@@ -89,6 +103,13 @@
           "url": "https://manifold.markets/DaftPunkRock/acx-2026-will-openai-file-for-an-ip",
           "volume": 11876,
           "traders": 55
+        },
+        "polymarket": {
+          "probability": 39,
+          "question": "Will OpenAI IPO by December 31 2026?",
+          "url": "https://polymarket.com/event/openai-ipo-by",
+          "volume": 419605,
+          "liquidity": 9422
         }
       }
     }
