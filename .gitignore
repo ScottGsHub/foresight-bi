@@ -1,0 +1,12 @@
+# Environment variables (contain API keys)
+.env
+
+# Node modules (if added later)
+node_modules/
+
+# Daily snapshots (generated)
+data/snapshots/
+
+# OS files
+.DS_Store
+Thumbs.db

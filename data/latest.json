@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-04-09T19:08:09.793Z",
+  "markets": {
+    "cpi-march-2026-3pct": {
+      "id": "cpi-march-2026-3pct",
+      "question": "Will US CPI inflation be above 3% for March 2026?",
+      "category": "macro",
+      "sources": {
+        "kalshi": {
+          "probability": 100,
+          "ticker": "KXCPIYOY-26MAR-T3.0",
+          "title": "Will the rate of CPI inflation be above 3.0% for the year ending in March 2026?",
+          "url": "https://kalshi.com/markets/KXCPIYOY-26MAR-T3.0",
+          "volume": 201489
+        }
+      }
+    },
+    "fed-rate-cut-2026": {
+      "id": "fed-rate-cut-2026",
+      "question": "Will the Fed cut interest rates in 2026?",
+      "category": "macro",
+      "sources": {
+        "polymarket": {
+          "probability": 36,
+          "question": "Will no Fed rate cuts happen in 2026?",
+          "url": "https://polymarket.com/event/how-many-fed-rate-cuts-in-2026",
+          "volume": 2974212,
+          "liquidity": 69743
+        }
+      }
+    },
+    "us-recession-2026": {
+      "id": "us-recession-2026",
+      "question": "Will the US enter a recession in 2026?",
+      "category": "macro",
+      "sources": {
+        "manifold": {
+          "probability": 46,
+          "question": "Will the US enter a recession (2 consecutive quarters of GDP decline) by end of 2026?",
+          "url": "https://manifold.markets/CalibratedGhosts/will-the-us-enter-a-recession-2-con",
+          "volume": 224,
+          "traders": 9
+        },
+        "polymarket": {
+          "probability": 32,
+          "question": "US recession by end of 2026?",
+          "url": "https://polymarket.com/event/us-recession-by-end-of-2026",
+          "volume": 1205538,
+          "liquidity": 61723
+        }
+      }
+    },
+    "btc-100k-2026": {
+      "id": "btc-100k-2026",
+      "question": "Will Bitcoin exceed $100,000 in 2026?",
+      "category": "crypto",
+      "sources": {
+        "polymarket": {
+          "probability": 37,
+          "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+          "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027",
+          "volume": 1222814,
+          "liquidity": 99035
+        }
+      }
+    },
+    "sp500-up-2026": {
+      "id": "sp500-up-2026",
+      "question": "Will the S&P 500 increase in 2026?",
+      "category": "markets",
+      "sources": {
+        "manifold": {
+          "probability": 64,
+          "question": "Will S&P 500 increase in 2026?",
+          "url": "https://manifold.markets/bessarabov/will-sp-500-increase-in-2026",
+          "volume": 40649,
+          "traders": 102
+        }
+      }
+    },
+    "openai-ipo-2026": {
+      "id": "openai-ipo-2026",
+      "question": "Will OpenAI file for an IPO in 2026?",
+      "category": "tech",
+      "sources": {
+        "manifold": {
+          "probability": 37,
+          "question": "[ACX 2026] Will OpenAI file for an IPO during 2026?",
+          "url": "https://manifold.markets/DaftPunkRock/acx-2026-will-openai-file-for-an-ip",
+          "volume": 11876,
+          "traders": 55
+        }
+      }
+    }
+  }
+}
