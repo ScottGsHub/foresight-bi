@@ -16,6 +16,7 @@ A dashboard that aggregates prediction markets and compares them to AI probabili
 ### Step 1: Download the Code
 
 **Option A: Using Git (Recommended)**
+Good option if you already have git installed on your computer and can use terminal mode.
 ```bash
 git clone https://github.com/ScottGsHub/foresight-bi.git
 cd foresight-bi
@@ -29,6 +30,8 @@ cd foresight-bi
 ### Step 2: Get Your API Keys
 
 You'll need at least one AI provider API key. **Claude is recommended** for best results:
+
+Note that settings files and places to get API keys can change with various providers. If these specific instructions don't get you to the API section with your providers, look in places like Profiles, Settings, Security and similar to find where to make API keys. Remember that most of these can show you an API key once, and then they don't show it again. So you should copy them into a password manager or someplaces for safe keeping.
 
 #### 🧠 Claude (Anthropic) - **RECOMMENDED**
 1. Go to https://console.anthropic.com
@@ -50,6 +53,7 @@ You'll need at least one AI provider API key. **Claude is recommended** for best
 4. Copy the key
 
 ### Step 3: Configure Your Keys
+The instrucions below are generally for using terminal window type text editors. The other option that works for most people is to use a plain text editor on the files themselves. It's important that you use a simple, plain text editor though, not a word processor that likey inserts special characters and codes.
 
 1. **Copy the template file:**
    ```bash
