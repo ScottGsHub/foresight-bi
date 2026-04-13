@@ -79,24 +79,29 @@ The instrucions below are generally for using terminal window type text editors.
 
 3. **Add your API keys:**
    ```bash
-   # Required (at least one):
+   # Required (at least one AI provider):
    ANTHROPIC_API_KEY=sk-ant-your-key-here
-   
-   # Optional:
+
+   # Optional but recommended for richer comparisons:
    OPENAI_API_KEY=sk-your-openai-key-here
    XAI_API_KEY=your-xai-key-here
+
+   # Optional: Metaculus integration (get token at metaculus.com/accounts/settings/)
+   METACULUS_TOKEN=your-token-here
    ```
 
 4. **Save and close** the file
 
 ### Step 4: Test the Setup
 
+No `npm install` needed — the scripts use only built-in Node.js modules.
+
 1. **Fetch market data:**
    ```bash
    node scripts/fetch-markets.js
    ```
    
-   ✅ **Success:** You should see "Fetched X markets" messages
+   ✅ **Success:** You should see market prices fetched for each entry in `data/markets.json`
    
    ❌ **Error?** See troubleshooting below
 
@@ -105,7 +110,7 @@ The instrucions below are generally for using terminal window type text editors.
    node scripts/generate-ai.js
    ```
    
-   ✅ **Success:** You should see "Analyzing with Claude/GPT/Grok" messages
+   ✅ **Success:** You should see probability estimates from each AI provider
 
 ### Step 5: View the Dashboard
 
