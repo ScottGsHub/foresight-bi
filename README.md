@@ -4,6 +4,8 @@ A dashboard that aggregates selected common projections from several prediction 
 
 The idea is to see if there's signficant divergence and then judge if such disparities represent an opportunity or not. Or just consider a composite score.
 
+![ForesightBI Dashboard](ForesightBI-ScreenShotExample.png)
+
 # ⚠️ Disclaimer
 
 This is an unofficial, personal project and is not affiliated with, endorsed by, or connected to any of the services used here in any way. Use at your own risk. The author is not responsible for any financial losses or issues arising from use of this software. Moreover, this was built with an OpenClaw bot and Claude. So the author takes even less responsibility, as in NONE for any use of this code.
@@ -161,6 +163,42 @@ foresight-bi/
 ├── index.html              # Dashboard (single file, no build)
 └── README.md
 ```
+
+## Choosing Markets
+
+ForesightBI does **not** auto-discover markets. There is no search or browsing built in — you choose the questions you care about and manually find the matching markets on each platform. The tool then fetches prices and AI estimates for exactly what you've listed.
+
+This is intentional: the value is in *you* picking meaningful, comparable questions across platforms — not in volume.
+
+### What makes a good market to add?
+
+- **Has matches on multiple platforms** — the more platforms have it, the richer the comparison. A question only on one platform gives you nothing to compare.
+- **Clear, binary resolution** — "Will X happen by Y date?" works well. Vague or multi-outcome questions are harder to compare.
+- **Not already resolved** — check the resolution date before adding.
+- **You have a view on it** — divergence is only interesting if you can reason about who might be right.
+
+### Finding tickers and slugs
+
+**Kalshi** (`kalshi_ticker`)
+1. Browse [kalshi.com](https://kalshi.com) and find a market
+2. The ticker is in the URL and on the market page — looks like `KXCPIYOY-26MAR-T3.2`
+3. Copy it exactly
+
+**Polymarket** (`polymarket_slug` + `polymarket_outcome`)
+1. Browse [polymarket.com](https://polymarket.com) and find a matching market
+2. The slug is the last part of the URL — e.g. `us-recession-by-end-of-2026`
+3. Also note the exact outcome label you want (e.g. `"Yes"`) — set this as `polymarket_outcome`
+
+**Manifold** (`manifold_slug`)
+1. Browse [manifold.markets](https://manifold.markets) and find a matching market
+2. The slug is the `username/market-name` part of the URL — e.g. `will-the-us-enter-a-recession-2-con`
+3. Use `null` if no match exists
+
+### Tips
+
+- Use `null` for any platform that doesn't have the market — the tool handles missing sources gracefully
+- Start with 3-5 markets to test your setup before adding more
+- Markets expire — check your `markets.json` periodically and remove resolved ones
 
 ## Adding New Markets
 
