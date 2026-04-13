@@ -1,6 +1,12 @@
 # 🔮 ForesightBI — AI-Powered Prediction Intelligence
 
-A dashboard that aggregates prediction markets and compares them to AI probability estimates, highlighting divergences for business intelligence.
+A dashboard that aggregates selected common projections from several prediction markets and compares them to AI probability estimates, highlighting divergences for business intelligence. What's included depends on existance of similar opportunities, (and the clarity and ease with which such opporutnities can be easily seen as similar), so there may be a small number of comparisons.
+
+The idea is to see if there's signficant divergence and then judge if such disparities represent an opportunity or not. Or just consider a composite score.
+
+# ⚠️ Disclaimer
+
+This is an unofficial, personal project and is not affiliated with, endorsed by, or connected to any of the services used here in any way. Use at your own risk. The author is not responsible for any financial losses or issues arising from use of this software. Moreover, this was built with an OpenClaw bot and Claude. So the author takes even less responsibility, as in NONE for any use of this code.
 
 ## Features
 
@@ -356,9 +362,9 @@ node scripts/fetch-markets.js
 - Polymarket may be geo-restricted in some regions
 - This is not financial advice
 
-## Future Plans
+## Future Plans Under Consideration
 
-- [ ] Track accuracy over time (who was right?)
+- [ ] Track accuracy over time (who was right?) (Likely using a real database like Supabase instead of flat file history.)
 - [ ] Add more markets and categories
 - [ ] Email/notification alerts for big divergences
 - [ ] Historical divergence trends
