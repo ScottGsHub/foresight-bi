@@ -114,23 +114,13 @@ No `npm install` needed — the scripts use only built-in Node.js modules.
 
 ### Step 5: View the Dashboard
 
-**Option A: Simple (just open the file)**
-```bash
-# Mac:
-open index.html
+> ⚠️ **You must use a local server.** The dashboard fetches `data/dashboard.json` at runtime. Browsers block this when opening an HTML file directly from your filesystem (the `file://` protocol). Without a server, the dashboard will load but show no data.
 
-# Linux:
-xdg-open index.html
-
-# Windows:
-start index.html
-```
-
-**Option B: Local server (recommended for full features)**
+**Start a local server:**
 ```bash
 npx http-server -p 8080 -c-1
 ```
-Then visit http://localhost:8080 in your browser
+Then visit http://localhost:8080 in your browser.
 
 ### Step 6: Keep It Updated
 
@@ -343,9 +333,7 @@ Neither is always right. The divergence itself is the insight.
    # Reconnect later: tmux attach -t foresight
    ```
 
-3. **Just open the HTML file directly:**
-   - Right-click `index.html` → "Open with" → your browser
-   - Note: Some features may not work due to CORS restrictions
+3. **Note:** Opening `index.html` directly in your browser will not work — the dashboard needs a local server to load data. Always use `npx http-server` as shown above.
 
 ### "Permission denied" or "EACCES"
 
