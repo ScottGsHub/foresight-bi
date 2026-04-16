@@ -329,7 +329,56 @@ async function main() {
     const latestPath = path.join(DATA_DIR, 'latest.json');
     fs.writeFileSync(latestPath, JSON.stringify(snapshot, null, 2));
     console.log(`✅ Saved latest to ${latestPath}`);
-    
+
+    // Write a baseline dashboard.json so the UI always has market prices,
+    // even if generate-ai.js hasn't run yet (or got killed mid-run).
+    const marketsConfig = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'markets.json'), 'utf8'));
+    const dashboardPath = path.join(DATA_DIR, 'dashboard.json');
+
+    // Preserve any existing AI analysis if present
+    let existingAi = {};
+    try {
+      const existing = JSON.parse(fs.readFileSync(dashboardPath, 'utf8'));
+      for (const m of (existing.markets || [])) {
+        if (m.ai) existingAi[m.id] = m.ai;
+      }
+    } catch (_) {}
+
+    const weights = { kalshi: 3, polymarket: 2, manifold: 1 };
+    function calcComposite(sources) {
+      let sum = 0, total = 0;
+      if (sources?.kalshi?.probability != null) { sum += sources.kalshi.probability * weights.kalshi; total += weights.kalshi; }
+      if (sources?.polymarket?.probability != null) { sum += sources.polymarket.probability * weights.polymarket; total += weights.polymarket; }
+      if (sources?.manifold?.probability != null) { sum += sources.manifold.probability * weights.manifold; total += weights.manifold; }
+      return total > 0 ? Math.round(sum / total) : null;
+    }
+
+    const dashboardData = {
+      updated_at: new Date().toISOString(),
+      categories: marketsConfig.categories,
+      markets: marketsConfig.markets.map(market => {
+        const snap = snapshot.markets[market.id];
+        const ai = existingAi[market.id] || null;
+        const composite = calcComposite(snap?.sources);
+        const divergence = (ai?.probability != null && composite != null)
+          ? { ai_vs_composite: ai.probability - composite, composite, significant: Math.abs(ai.probability - composite) >= 10 }
+          : null;
+        return {
+          id: market.id,
+          question: market.question,
+          category: market.category,
+          resolution_date: market.resolution_date,
+          kalshi: snap?.sources?.kalshi || null,
+          polymarket: snap?.sources?.polymarket || null,
+          manifold: snap?.sources?.manifold || null,
+          ai: ai,
+          divergence
+        };
+      })
+    };
+    fs.writeFileSync(dashboardPath, JSON.stringify(dashboardData, null, 2));
+    console.log(`✅ Saved dashboard.json (market prices${Object.keys(existingAi).length ? ' + preserved AI data' : ', no AI yet'})`);
+
   } catch (err) {
     console.error('Error:', err.message);
     process.exit(1);
