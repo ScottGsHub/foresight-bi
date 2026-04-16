@@ -5,10 +5,15 @@
       "icon": "📈",
       "description": "Inflation, interest rates, recession indicators"
     },
-    "tech": {
-      "name": "Tech & AI",
-      "icon": "🤖",
-      "description": "AI regulation, major tech events"
+    "fed": {
+      "name": "Fed Policy",
+      "icon": "🏦",
+      "description": "Federal Reserve rate decisions"
+    },
+    "trade": {
+      "name": "Trade & Tariffs",
+      "icon": "🌐",
+      "description": "Tariffs, trade wars, trade deals"
     },
     "crypto": {
       "name": "Crypto",
@@ -19,36 +24,77 @@
       "name": "Financial Markets",
       "icon": "💹",
       "description": "Stock indices, commodities"
+    },
+    "tech": {
+      "name": "Tech & AI",
+      "icon": "🤖",
+      "description": "AI regulation, major tech events"
     }
   },
   "markets": [
     {
-      "id": "cpi-march-2026-3pct",
-      "question": "Will US CPI inflation be above 3% for March 2026?",
-      "category": "macro",
-      "resolution_date": "2026-04-10",
-      "kalshi_ticker": "KXCPIYOY-26MAR-T3.0",
-      "manifold_slug": null,
-      "polymarket_slug": null
-    },
-    {
-      "id": "fed-rate-cut-2026",
-      "question": "Will the Fed cut interest rates in 2026?",
-      "category": "macro",
-      "resolution_date": "2026-12-31",
-      "kalshi_ticker": "KXRATECUT-26DEC31",
-      "manifold_slug": null,
-      "polymarket_slug": "how-many-fed-rate-cuts-in-2026",
-      "polymarket_outcome": "1+"
-    },
-    {
-      "id": "us-recession-2026",
+      "id": "recession-2026",
       "question": "Will the US enter a recession in 2026?",
       "category": "macro",
       "resolution_date": "2026-12-31",
       "kalshi_ticker": "KXRECSSNBER-26",
       "manifold_slug": "will-the-us-enter-a-recession-2-con",
       "polymarket_slug": "us-recession-by-end-of-2026"
+    },
+    {
+      "id": "cpi-april-2026-3pct",
+      "question": "Will US CPI inflation be above 3.0% for April 2026?",
+      "category": "macro",
+      "resolution_date": "2026-05-13",
+      "kalshi_ticker": "KXCPIYOY-26APR-T3.0",
+      "manifold_slug": null,
+      "polymarket_slug": null
+    },
+    {
+      "id": "cpi-may-2026-3pct",
+      "question": "Will US CPI inflation be above 3.0% for May 2026?",
+      "category": "macro",
+      "resolution_date": "2026-06-10",
+      "kalshi_ticker": "KXCPIYOY-26MAY-T3.0",
+      "manifold_slug": null,
+      "polymarket_slug": null
+    },
+    {
+      "id": "cpi-may-2026-3p1pct",
+      "question": "Will US CPI inflation be above 3.1% for May 2026?",
+      "category": "macro",
+      "resolution_date": "2026-06-10",
+      "kalshi_ticker": "KXCPIYOY-26MAY-T3.1",
+      "manifold_slug": null,
+      "polymarket_slug": null
+    },
+    {
+      "id": "fed-jun-2026-hold",
+      "question": "Will the Fed hold rates (0bps change) at June 2026 meeting?",
+      "category": "fed",
+      "resolution_date": "2026-06-18",
+      "kalshi_ticker": "KXFEDDECISION-26JUN-H0",
+      "manifold_slug": null,
+      "polymarket_slug": null
+    },
+    {
+      "id": "fed-jun-2026-cut25",
+      "question": "Will the Fed cut rates 25bps at June 2026 meeting?",
+      "category": "fed",
+      "resolution_date": "2026-06-18",
+      "kalshi_ticker": "KXFEDDECISION-26JUN-C25",
+      "manifold_slug": null,
+      "polymarket_slug": null
+    },
+    {
+      "id": "fed-ratecut-count-2026",
+      "question": "How many Fed rate cuts in 2026? (any cuts)",
+      "category": "fed",
+      "resolution_date": "2026-12-31",
+      "kalshi_ticker": "KXRATECUT-26DEC31",
+      "manifold_slug": null,
+      "polymarket_slug": "how-many-fed-rate-cuts-in-2026",
+      "polymarket_outcome": "1+"
     },
     {
       "id": "btc-100k-2026",
@@ -59,15 +105,6 @@
       "manifold_slug": null,
       "polymarket_slug": "what-price-will-bitcoin-hit-before-2027",
       "polymarket_outcome": "$100,000"
-    },
-    {
-      "id": "sp500-up-2026",
-      "question": "Will the S&P 500 increase in 2026?",
-      "category": "markets",
-      "resolution_date": "2026-12-31",
-      "kalshi_ticker": null,
-      "manifold_slug": "will-sp-500-increase-in-2026",
-      "polymarket_slug": null
     },
     {
       "id": "openai-ipo-2026",
